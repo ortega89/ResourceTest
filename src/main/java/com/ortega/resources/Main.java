@@ -65,8 +65,8 @@ public class Main {
 		});
 		
 		loader.add(path, BorderLayout.NORTH);
-		loader.add(loadFile, BorderLayout.WEST);
-		loader.add(loadStream, BorderLayout.EAST);
+		loader.add(loadFile, BorderLayout.CENTER);
+		loader.add(loadStream, BorderLayout.SOUTH);
 		
 		frame.add(imgPanel, BorderLayout.CENTER);
 		frame.add(loader, BorderLayout.SOUTH);
